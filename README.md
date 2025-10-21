@@ -8,6 +8,6 @@ See the full step-by-step guide here 👉 [deployment-guide.md](deployment-guide
 ---
 
 ### 🏢 Maintained by
-**Workmates SecOps Team**
+**Workmates CyberSecOps Team**
 
 Contributions welcome via pull requests from personal GitHub accounts
