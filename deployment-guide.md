@@ -1,4 +1,4 @@
-# 🛡️ Palo Alto VM-Series Firewall Deployment on AWS (GUI + CLI)
+# 🛡️ Palo Alto VM-Series Firewall Deployment on AWS 
 
 ## 🧩 Overview
 This guide explains how to launch and configure a **Palo Alto VM-Series firewall** from **AWS Marketplace**, including interface setup and admin password configuration — all via **AWS GUI** and **firewall CLI**.
@@ -54,4 +54,5 @@ This guide explains how to launch and configure a **Palo Alto VM-Series firewall
 - Use **strong admin passwords** for security.  
 - Ensure your **security groups** allow access from your management IP.  
 - For production, consider **multi-AZ deployment** and **high availability**.
+
 
