@@ -15,9 +15,9 @@ This guide explains how to launch and configure a **Palo Alto VM-Series firewall
    - **PAYG** (Hourly / Annual subscription)  
 4. Click **Continue to Subscribe → Continue to Configuration → Continue to Launch**.  
 5. In **Launch from EC2**, configure:  
-   - **Instance type:** `m5.xlarge`  
+   - **Instance type:** `m5.large`(depending on your requirements)  
    - **VPC & Subnet:** Choose your deployment network  
-   - **Auto-assign Public IP:** **Enabled**  
+   - **Auto-assign Public IP:** **Enabled**  (better to assign EIP later)
    - **Security Group:** Allow inbound **HTTPS (443)** and **SSH (22)**  
 6. Click **Launch Instance**.
 
@@ -54,3 +54,4 @@ This guide explains how to launch and configure a **Palo Alto VM-Series firewall
 - Use **strong admin passwords** for security.  
 - Ensure your **security groups** allow access from your management IP.  
 - For production, consider **multi-AZ deployment** and **high availability**.
+
